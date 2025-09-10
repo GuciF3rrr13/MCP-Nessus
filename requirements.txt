@@ -1,0 +1,7 @@
+fastmcp
+requests
+urllib3
+logging
+time
+typing
+dataclasses
