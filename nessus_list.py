@@ -15,8 +15,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 BASE_URL = os.getenv("NESSUS_URL", "https://localhost:8834")
-ACCESS_KEY = os.getenv("NESSUS_ACCESS_KEY", "63e3992c705ba1a4dcf4f9176cd6bb39aa14a50abae9c2e2063c8bf1fb2c7e7d")
-SECRET_KEY = os.getenv("NESSUS_SECRET_KEY", "297895edcedf286f2fafcbb075852cb7741a5ddfe9b9e18c67595e1648e26d82")
+ACCESS_KEY = os.getenv("NESSUS_ACCESS_KEY", "Nhap key vao day")
+SECRET_KEY = os.getenv("NESSUS_SECRET_KEY", "Nhap key vao day")
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
